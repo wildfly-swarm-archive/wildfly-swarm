@@ -1,4 +1,4 @@
-package org.wildfly.boot.plugin;
+package org.wildfly.swarm.plugin;
 
 import org.apache.maven.artifact.Artifact;
 

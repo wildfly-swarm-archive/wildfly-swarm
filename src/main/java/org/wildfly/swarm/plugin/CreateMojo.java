@@ -1,4 +1,4 @@
-package org.wildfly.boot.plugin;
+package org.wildfly.swarm.plugin;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -298,7 +298,7 @@ public class CreateMojo extends AbstractSwarmMojo {
 
 
     private void setupDirectory() {
-        this.dir = new File(this.projectBuildDir, "wildfly-boot-archive");
+        this.dir = new File(this.projectBuildDir, "wildfly-swarm-archive");
         if (!dir.exists()) {
             dir.mkdirs();
         } else {
@@ -370,7 +370,7 @@ public class CreateMojo extends AbstractSwarmMojo {
     }
 
     private void addBootstrap() throws MojoFailureException {
-        Artifact artifact = findArtifact("org.wildfly.boot", "wildfly-boot-bootstrap", "jar");
+        Artifact artifact = findArtifact("org.wildfly.swarm", "wildfly-swarm-bootstrap", "jar");
         try {
             expandArtifact(artifact);
         } catch (IOException e) {
@@ -439,12 +439,12 @@ public class CreateMojo extends AbstractSwarmMojo {
                 primaryArtifact.getVersion(),
                 primaryArtifact.getScope(),
                 "jar",
-                "boot",
+                "swarm",
                 handler
         );
 
 
-        String name = artifact.getArtifactId() + "-" + artifact.getVersion() + "-boot.jar";
+        String name = artifact.getArtifactId() + "-" + artifact.getVersion() + "-swarm.jar";
 
         File file = new File(this.projectBuildDir, name);
 
@@ -500,7 +500,7 @@ public class CreateMojo extends AbstractSwarmMojo {
 
         Attributes attrs = manifest.getMainAttributes();
         attrs.put(Attributes.Name.MANIFEST_VERSION, "1.0");
-        attrs.put(Attributes.Name.MAIN_CLASS, "org.wildfly.boot.bootstrap.Main");
+        attrs.put(Attributes.Name.MAIN_CLASS, "org.wildfly.swarm.bootstrap.Main");
         attrs.putValue("Application-Artifact", this.project.getArtifact().getFile().getName());
 
         StringBuilder modules = new StringBuilder();

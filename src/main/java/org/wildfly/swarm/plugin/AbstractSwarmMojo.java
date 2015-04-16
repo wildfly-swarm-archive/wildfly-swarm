@@ -1,4 +1,4 @@
-package org.wildfly.boot.plugin;
+package org.wildfly.swarm.plugin;
 
 import java.io.File;
 import java.io.FileOutputStream;
