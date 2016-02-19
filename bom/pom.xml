@@ -293,6 +293,11 @@
         <artifactId>keycloak</artifactId>
         <version>${version.wildfly-swarm.keycloak}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>keycloak-server</artifactId>
+        <version>${version.wildfly-swarm.keycloak}</version>
+      </dependency>
 
       <!-- Logstash -->
       <dependency>
@@ -312,6 +317,11 @@
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>swagger</artifactId>
+        <version>${version.wildfly-swarm.swagger}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>swagger-webapp</artifactId>
         <version>${version.wildfly-swarm.swagger}</version>
       </dependency>
 
