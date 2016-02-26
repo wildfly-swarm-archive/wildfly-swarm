@@ -46,7 +46,7 @@
   </licenses>
 
   <properties>
-    <version.wildfly-swarm.core>1.0.0.Alpha9-SNAPSHOT</version.wildfly-swarm.core>
+    <version.wildfly-swarm.core>1.0.0.Beta2</version.wildfly-swarm.core>
     <version.wildfly-swarm.netflix>1.0.0.Alpha9-SNAPSHOT</version.wildfly-swarm.netflix>
     <version.wildfly-swarm.swagger>1.0.0.Alpha9-SNAPSHOT</version.wildfly-swarm.swagger>
     <version.wildfly-swarm.jolokia>1.0.0.Alpha9-SNAPSHOT</version.wildfly-swarm.jolokia>
