@@ -312,6 +312,11 @@
         <artifactId>spring</artifactId>
         <version>${version.wildfly-swarm.spring}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>spring-rest</artifactId>
+        <version>${version.wildfly-swarm.spring}</version>
+      </dependency>
 
       <!-- Swagger -->
       <dependency>
