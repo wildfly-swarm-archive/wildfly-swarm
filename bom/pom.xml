@@ -16,7 +16,7 @@
 
   <groupId>org.wildfly.swarm</groupId>
   <artifactId>bom</artifactId>
-  <version>1.0.0.Alpha9-SNAPSHOT</version>
+  <version>1.0.0.CR1-SNAPSHOT</version>
 
   <name>WildFly Swarm: BOM for Fractions</name>
   <description>WildFly Swarm: BOM for Fractions</description>
