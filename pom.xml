@@ -40,5 +40,6 @@
     <module>bom</module>
     <module>fraction-list</module>
     <module>swarmtool</module>
+    <module>plugin</module>
   </modules>
 </project>
