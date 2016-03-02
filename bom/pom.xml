@@ -345,6 +345,11 @@
         <artifactId>topology-jgroups</artifactId>
         <version>${version.wildfly-swarm.topology-jgroups}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-consul</artifactId>
+        <version>${version.wildfly-swarm.topology-consul}</version>
+      </dependency>
 
     </dependencies>
   </dependencyManagement>
