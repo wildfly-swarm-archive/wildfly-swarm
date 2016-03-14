@@ -16,7 +16,7 @@
 
   <groupId>org.wildfly.swarm</groupId>
   <artifactId>bom</artifactId>
-  <version>1.0.0.Beta6</version>
+  <version>1.0.0.CR1-SNAPSHOT</version>
 
   <name>WildFly Swarm: BOM for Fractions</name>
   <description>WildFly Swarm: BOM for Fractions</description>
@@ -37,7 +37,7 @@
     <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</developerConnection>
     <url>https://github.com/wildfly-swarm/wildfly-swarm</url>
-    <tag>1.0.0.Beta6</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <licenses>
