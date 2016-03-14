@@ -10,7 +10,7 @@
   <parent>
     <groupId>org.wildfly.swarm</groupId>
     <artifactId>parent</artifactId>
-    <version>4</version>
+    <version>6</version>
     <relativePath/>
   </parent>
 
@@ -32,6 +32,7 @@
       <organizationUrl>http://wildfly-swarm.io/</organizationUrl>
     </developer>
   </developers>
+
   <scm>
     <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</developerConnection>
@@ -46,17 +47,17 @@
   </licenses>
 
   <properties>
-    <version.wildfly-swarm.core>1.0.0.Beta4-SNAPSHOT</version.wildfly-swarm.core>
-    <version.wildfly-swarm.netflix>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.netflix>
-    <version.wildfly-swarm.swagger>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.swagger>
-    <version.wildfly-swarm.jolokia>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.jolokia>
-    <version.wildfly-swarm.logstash>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.logstash>
-    <version.wildfly-swarm.topology>1.0.0.Beta4-SNAPSHOT</version.wildfly-swarm.topology>
-    <version.wildfly-swarm.topology-consul>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.topology-consul>
-    <version.wildfly-swarm.topology-jgroups>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.topology-jgroups>
-    <version.wildfly-swarm.topology-openshift>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.topology-openshift>
-    <version.wildfly-swarm.keycloak>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.keycloak>
-    <version.wildfly-swarm.spring>1.0.0.Alpha3-SNAPSHOT</version.wildfly-swarm.spring>
+    <version.wildfly-swarm.core>1.0.0.Beta4</version.wildfly-swarm.core>
+    <version.wildfly-swarm.netflix>1.0.0.Beta2</version.wildfly-swarm.netflix>
+    <version.wildfly-swarm.swagger>1.0.0.Beta3</version.wildfly-swarm.swagger>
+    <version.wildfly-swarm.jolokia>1.0.0.Beta2</version.wildfly-swarm.jolokia>
+    <version.wildfly-swarm.logstash>1.0.0.Beta2</version.wildfly-swarm.logstash>
+    <version.wildfly-swarm.topology>1.0.0.Beta4</version.wildfly-swarm.topology>
+    <version.wildfly-swarm.topology-consul>1.0.0.Beta2</version.wildfly-swarm.topology-consul>
+    <version.wildfly-swarm.topology-jgroups>1.0.0.Beta2</version.wildfly-swarm.topology-jgroups>
+    <version.wildfly-swarm.topology-openshift>1.0.0.Beta2</version.wildfly-swarm.topology-openshift>
+    <version.wildfly-swarm.keycloak>1.0.0.Beta2</version.wildfly-swarm.keycloak>
+    <version.wildfly-swarm.spring>1.0.0.Alpha2</version.wildfly-swarm.spring>
   </properties>
 
   <dependencyManagement>
@@ -380,39 +381,5 @@
       </extension>
     </extensions>
   </build>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
-  <profiles>
-    <profile>
-      <id>release</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>sign-artifacts</id>
-                <phase>verify</phase>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 
 </project>

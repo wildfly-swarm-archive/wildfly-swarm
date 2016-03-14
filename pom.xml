@@ -17,6 +17,13 @@
 
   <packaging>pom</packaging>
 
+  <scm>
+    <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</connection>
+    <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</developerConnection>
+    <url>https://github.com/wildfly-swarm/wildfly-swarm</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
     <version.swarm.fraction-plugin>1.0.0.Beta2</version.swarm.fraction-plugin>
 
@@ -133,6 +140,7 @@
       </plugins>
     </pluginManagement>
   </build>
+
   <modules>
     <module>bom</module>
     <module>fraction-list</module>
