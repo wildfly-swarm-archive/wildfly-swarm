@@ -65,7 +65,18 @@
       <!-- Core -->
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>bootstrap</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>container</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>container-modules</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
 
@@ -74,6 +85,7 @@
         <artifactId>arquillian</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>batch-jberet</artifactId>
@@ -81,9 +93,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>batch-jberet-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>bean-validation</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>bean-validation-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>connector</artifactId>
@@ -91,9 +115,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>connector-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>datasources</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>datasources-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>ee</artifactId>
@@ -101,9 +137,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>ee-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>ejb</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>ejb-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>ejb-remote</artifactId>
@@ -111,14 +159,22 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>ejb-remote-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>hibernate-search</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>hibernate-validator</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>infinispan</artifactId>
@@ -126,9 +182,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>infinispan-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>io</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>io-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs</artifactId>
@@ -136,29 +204,40 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jaxrs-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs-jaxb</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs-jsonp</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs-multipart</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs-validator</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jaxrs-weld</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jca</artifactId>
@@ -166,9 +245,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jca-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>jgroups</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jgroups-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jmx</artifactId>
@@ -176,9 +267,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jmx-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>jpa</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jpa-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>jsf</artifactId>
@@ -186,9 +289,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jsf-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>logging</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>logging-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>mail</artifactId>
@@ -196,9 +311,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>mail-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>management</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>management-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>messaging</artifactId>
@@ -206,9 +333,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>messaging-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>msc</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>msc-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>naming</artifactId>
@@ -216,9 +355,21 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>naming-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>remoting</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>remoting-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>security</artifactId>
@@ -226,14 +377,27 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>security-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>transactions</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>transactions-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>tools</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>undertow</artifactId>
@@ -241,12 +405,29 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>undertow-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>webservices</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>webservices-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>weld</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>weld-modules</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
 
@@ -256,16 +437,19 @@
         <artifactId>archaius</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>guava</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>hystrix</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>ribbon</artifactId>
@@ -273,29 +457,45 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>ribbon-modules</artifactId>
+        <version>${version.wildfly-swarm.netflix}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>ribbon-secured</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>ribbon-secured-modules</artifactId>
+        <version>${version.wildfly-swarm.netflix}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>ribbon-secured-client</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>ribbon-webapp</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>rxjava</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>rxnetty</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
+
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>servo</artifactId>
@@ -308,6 +508,11 @@
         <artifactId>jolokia</artifactId>
         <version>${version.wildfly-swarm.jolokia}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>jolokia-modules</artifactId>
+        <version>${version.wildfly-swarm.jolokia}</version>
+      </dependency>
 
       <!-- Keycloak -->
       <dependency>
@@ -317,7 +522,18 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>keycloak-modules</artifactId>
+        <version>${version.wildfly-swarm.keycloak}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>keycloak-server</artifactId>
+        <version>${version.wildfly-swarm.keycloak}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>keycloak-server-modules</artifactId>
         <version>${version.wildfly-swarm.keycloak}</version>
       </dependency>
 
@@ -325,6 +541,11 @@
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>logstash</artifactId>
+        <version>${version.wildfly-swarm.logstash}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>logstash-modules</artifactId>
         <version>${version.wildfly-swarm.logstash}</version>
       </dependency>
 
@@ -336,7 +557,18 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>spring-modules</artifactId>
+        <version>${version.wildfly-swarm.spring}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>spring-rest</artifactId>
+        <version>${version.wildfly-swarm.spring}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>spring-rest-modules</artifactId>
         <version>${version.wildfly-swarm.spring}</version>
       </dependency>
 
@@ -348,7 +580,18 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>swagger-modules</artifactId>
+        <version>${version.wildfly-swarm.swagger}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>swagger-webapp</artifactId>
+        <version>${version.wildfly-swarm.swagger}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>swagger-webapp-modules</artifactId>
         <version>${version.wildfly-swarm.swagger}</version>
       </dependency>
 
@@ -360,9 +603,22 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-modules</artifactId>
+        <version>${version.wildfly-swarm.topology}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>topology-webapp</artifactId>
         <version>${version.wildfly-swarm.topology}</version>
       </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-webapp-modules</artifactId>
+        <version>${version.wildfly-swarm.topology}</version>
+      </dependency>
+
+      <!-- Topology - JGroups -->
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>topology-jgroups</artifactId>
@@ -370,12 +626,31 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-jgroups-modules</artifactId>
+        <version>${version.wildfly-swarm.topology-jgroups}</version>
+      </dependency>
+
+      <!-- Topology - Consul -->
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>topology-consul</artifactId>
         <version>${version.wildfly-swarm.topology-consul}</version>
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-consul-modules</artifactId>
+        <version>${version.wildfly-swarm.topology-consul}</version>
+      </dependency>
+
+      <!-- Topology - OpenShift -->
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>topology-openshift</artifactId>
+        <version>${version.wildfly-swarm.topology-openshift}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>topology-openshift-modules</artifactId>
         <version>${version.wildfly-swarm.topology-openshift}</version>
       </dependency>
 
