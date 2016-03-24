@@ -440,7 +440,7 @@
 
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
-        <artifactId>guava</artifactId>
+        <artifactId>netflix-guava</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
 
@@ -480,19 +480,13 @@
 
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
-        <artifactId>ribbon-webapp</artifactId>
+        <artifactId>netflix-rxjava</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
 
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
-        <artifactId>rxjava</artifactId>
-        <version>${version.wildfly-swarm.netflix}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.wildfly.swarm</groupId>
-        <artifactId>rxnetty</artifactId>
+        <artifactId>netflix-rxnetty</artifactId>
         <version>${version.wildfly-swarm.netflix}</version>
       </dependency>
 
