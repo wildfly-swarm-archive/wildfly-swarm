@@ -58,6 +58,8 @@
     <version.wildfly-swarm.topology-openshift>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.topology-openshift>
     <version.wildfly-swarm.keycloak>1.0.0.Beta3-SNAPSHOT</version.wildfly-swarm.keycloak>
     <version.wildfly-swarm.spring>1.0.0.Alpha3-SNAPSHOT</version.wildfly-swarm.spring>
+
+    <version.shrinkwrap-descriptors>2.0.0-alpha-9</version.shrinkwrap-descriptors>
   </properties>
 
   <dependencyManagement>
@@ -648,6 +650,14 @@
         <version>${version.wildfly-swarm.topology-openshift}</version>
       </dependency>
 
+      <!-- Shrinkwrap Descriptors -->
+      <dependency>
+        <groupId>org.jboss.shrinkwrap.descriptors</groupId>
+        <artifactId>shrinkwrap-descriptors-bom</artifactId>
+        <version>${version.shrinkwrap-descriptors}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
