@@ -341,6 +341,17 @@
 
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>monitor</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>monitor-modules</artifactId>
+        <version>${version.wildfly-swarm.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>msc</artifactId>
         <version>${version.wildfly-swarm.core}</version>
       </dependency>
