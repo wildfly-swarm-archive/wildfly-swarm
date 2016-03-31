@@ -25,7 +25,7 @@
   </scm>
 
   <properties>
-    <version.swarm.fraction-plugin>1.0.0.Beta5</version.swarm.fraction-plugin>
+    <version.swarm.fraction-plugin>1.0.0.Beta8</version.swarm.fraction-plugin>
 
     <version.maven.plugin.api>3.2.5</version.maven.plugin.api>
     <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
@@ -36,6 +36,21 @@
 
     <version.junit>4.12</version.junit>
     <version.fest-assert>1.4</version.fest-assert>
+
+    <version.swarm.config-api>0.3.28</version.swarm.config-api>
+    <version.swarm.core>1.0.0.Beta5-SNAPSHOT</version.swarm.core>
+    <version.swarm.jolokia>1.0.0.Beta3-SNAPSHOT</version.swarm.jolokia>
+    <version.swarm.keycloak>1.0.0.Beta3-SNAPSHOT</version.swarm.keycloak>
+    <version.swarm.logstash>1.0.0.Beta3-SNAPSHOT</version.swarm.logstash>
+    <version.swarm.netflix>1.0.0.Beta3-SNAPSHOT</version.swarm.netflix>
+    <version.swarm.spring>1.0.0.Alpha3-SNAPSHOT</version.swarm.spring>
+    <version.swarm.swagger>1.0.0.Beta4-SNAPSHOT</version.swarm.swagger>
+    <version.swarm.spi>1.0.0.Beta9</version.swarm.spi>
+    <version.swarm.topology>1.0.0.CR2-SNAPSHOT</version.swarm.topology>
+    <version.swarm.topology-consul>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-consul>
+    <version.swarm.topology-jgroups>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-jgroups>
+    <version.swarm.topology-openshift>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-openshift>
+
   </properties>
 
   <repositories>
@@ -54,6 +69,11 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
+        <artifactId>tools</artifactId>
+        <version>${version.swarm.core}</version>
+      </dependency>
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-plugin-api</artifactId>
@@ -136,6 +156,23 @@
           <groupId>org.wildfly.swarm</groupId>
           <artifactId>wildfly-swarm-fraction-plugin</artifactId>
           <version>${version.swarm.fraction-plugin}</version>
+          <configuration>
+            <modules>
+              <module>config-api:${version.swarm.config-api}</module>
+              <module>core:${version.swarm.core}</module>
+              <module>jolokia:${version.swarm.jolokia}</module>
+              <module>keycloak:${version.swarm.keycloak}</module>
+              <module>logstash:${version.swarm.logstash}</module>
+              <module>netflix:${version.swarm.netflix}</module>
+              <module>spring:${version.swarm.spring}</module>
+              <module>swagger:${version.swarm.swagger}</module>
+              <module>spi:${version.swarm.spi}</module>
+              <module>topology:${version.swarm.topology}</module>
+              <module>topology-consul:${version.swarm.topology-consul}</module>
+              <module>topology-jgroups:${version.swarm.topology-jgroups}</module>
+              <module>topology-openshift:${version.swarm.topology-openshift}</module>
+            </modules>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
