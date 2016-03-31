@@ -74,8 +74,8 @@
             </goals>
             <configuration>
               <packaging>pom</packaging>
-              <repositoryId>${project.distributionManagement.repository.id}</repositoryId>
-              <url>${project.distributionManagement.repository.url}</url>
+              <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
+              <url>${project.distributionManagement.snapshotRepository.url}</url>
               <file>${project.build.outputDirectory}/bom.pom</file>
               <pomFile>${project.build.outputDirectory}/bom.pom</pomFile>
             </configuration>
@@ -93,4 +93,32 @@
     </extensions>
   </build>
 
+  <profiles>
+    <profile>
+      <id>release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>deploy-generated-bom</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy-file</goal>
+                </goals>
+                <configuration>
+                  <packaging>pom</packaging>
+                  <repositoryId>${project.distributionManagement.repository.id}</repositoryId>
+                  <url>${project.distributionManagement.repository.url}</url>
+                  <file>${project.build.outputDirectory}/bom.pom</file>
+                  <pomFile>${project.build.outputDirectory}/bom.pom</pomFile>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
