@@ -1,0 +1,30 @@
+---
+---
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"></meta>
+
+  <title>WildFly Swarm API Javadocs</title>
+  <meta name="description" content="WildFly Swarm API Javadocs">
+  <meta name="author" content="Red Hat, Inc.">
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+<body>
+  <h1>WildFly Swarm API</h1>
+  <p>
+    The <a href="http://wildfly-swarm.io/">WildFly Swarm</a> public API.
+  </p>
+  
+  <h2>Javadocs</h2>
+  <ul>
+    {% for version in site.data.versions %}
+    
+    <li><a href="{{ version }}/apidocs/index.html" title="{{ version }}">{{ version }}</a></li>
+
+    {% endfor %}
+  </ul>
+</body>
+</html>
