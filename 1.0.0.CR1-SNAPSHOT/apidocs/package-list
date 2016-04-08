@@ -2,6 +2,7 @@ org.wildfly.swarm
 org.wildfly.swarm.arquillian
 org.wildfly.swarm.batch.jberet
 org.wildfly.swarm.bean.validation
+org.wildfly.swarm.cdi
 org.wildfly.swarm.config
 org.wildfly.swarm.config.batch.jberet
 org.wildfly.swarm.config.datasources
@@ -121,4 +122,3 @@ org.wildfly.swarm.transactions
 org.wildfly.swarm.undertow
 org.wildfly.swarm.undertow.descriptors
 org.wildfly.swarm.webservices
-org.wildfly.swarm.weld
