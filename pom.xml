@@ -48,7 +48,7 @@
     <version.swarm.spi>1.0.0.Beta12</version.swarm.spi>
     <version.swarm.topology>1.0.0.CR3-SNAPSHOT</version.swarm.topology>
     <version.swarm.topology-consul>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-consul>
-    <version.swarm.topology-jgroups>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-jgroups>
+    <version.swarm.topology-jgroups>1.0.0.Final-SNAPSHOT</version.swarm.topology-jgroups>
     <version.swarm.topology-openshift>1.0.0.Beta3-SNAPSHOT</version.swarm.topology-openshift>
 
   </properties>
