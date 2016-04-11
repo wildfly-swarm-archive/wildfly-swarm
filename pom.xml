@@ -10,7 +10,7 @@
 
   <groupId>org.wildfly.swarm</groupId>
   <artifactId>bom-parent</artifactId>
-  <version>1.0.0.CR1-SNAPSHOT</version>
+  <version>1.0.0.Beta7</version>
 
   <name>WildFly Swarm: BOM Parent</name>
   <description>WildFly Swarm: BOM Parent</description>
@@ -21,7 +21,7 @@
     <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</developerConnection>
     <url>https://github.com/wildfly-swarm/wildfly-swarm</url>
-    <tag>HEAD</tag>
+    <tag>1.0.0.Beta7</tag>
   </scm>
 
   <properties>
@@ -175,7 +175,7 @@
               <module>topology-parent:${version.swarm.topology}</module>
               <module>topology-consul-parent:${version.swarm.topology-consul}</module>
               <module>topology-jgroups-parent:${version.swarm.topology-jgroups}</module>
-              <module>topology-openshift-parent:${version.swarm.topology-openshift}</module>-->
+              <module>topology-openshift-parent:${version.swarm.topology-openshift}</module>--&gt;
             </modules>
           </configuration>
         </plugin>
