@@ -51,6 +51,7 @@
     <version.swarm.topology-jgroups>1.0.0.Final-SNAPSHOT</version.swarm.topology-jgroups>
     <version.swarm.topology-openshift>1.0.0.Final-SNAPSHOT</version.swarm.topology-openshift>
 
+    <release.arguments>-DreleaseProfiles=javadocs,release</release.arguments>
   </properties>
 
   <repositories>

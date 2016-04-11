@@ -99,13 +99,13 @@
       <build>
         <plugins>
           <plugin>
-            <artifactId>maven-deploy-plugin</artifactId>
+            <artifactId>maven-gpg-plugin</artifactId>
             <executions>
               <execution>
                 <id>deploy-generated-bom</id>
                 <phase>deploy</phase>
                 <goals>
-                  <goal>deploy-file</goal>
+                  <goal>sign-and-deploy-file</goal>
                 </goals>
                 <configuration>
                   <packaging>pom</packaging>
