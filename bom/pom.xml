@@ -63,25 +63,6 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>deploy-generated-bom</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy-file</goal>
-            </goals>
-            <configuration>
-              <packaging>pom</packaging>
-              <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
-              <url>${project.distributionManagement.snapshotRepository.url}</url>
-              <file>${project.build.outputDirectory}/bom.pom</file>
-              <pomFile>${project.build.outputDirectory}/bom.pom</pomFile>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
 
     <extensions>
@@ -94,6 +75,37 @@
   </build>
 
   <profiles>
+    <profile>
+      <id>deploy-snapshot-bom</id>
+      <activation>
+        <!-- will be automatically deactivated when the release profile below is activated -->
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>deploy-generated-bom</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy-file</goal>
+                </goals>
+                <configuration>
+                  <packaging>pom</packaging>
+                  <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
+                  <url>${project.distributionManagement.snapshotRepository.url}</url>
+                  <file>${project.build.outputDirectory}/bom.pom</file>
+                  <pomFile>${project.build.outputDirectory}/bom.pom</pomFile>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
     <profile>
       <id>release</id>
       <build>
