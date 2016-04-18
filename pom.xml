@@ -164,9 +164,9 @@
           <version>${version.swarm.fraction-plugin}</version>
           <configuration>
             <modules>
-              <module>camel-core:${version.swarm.camel}</module>
-              <module>camel-web:${version.swarm.camel}</module>
-              <module>camel-full:${version.swarm.camel}</module>
+              <!--<module>camel-core:${version.swarm.camel}</module>-->
+              <!--<module>camel-web:${version.swarm.camel}</module>-->
+              <!--<module>camel-full:${version.swarm.camel}</module>-->
               <module>config-api-parent:${version.swarm.config-api}</module>
               <module>core:${version.swarm.core}</module>
               <module>jolokia-parent:${version.swarm.jolokia}</module>
