@@ -8,7 +8,6 @@
     <version>7</version>
   </parent>
 
-  <groupId>org.wildfly.swarm</groupId>
   <artifactId>bom-parent</artifactId>
   <version>1.0.0.CR1-SNAPSHOT</version>
 
@@ -37,6 +36,7 @@
     <version.junit>4.12</version.junit>
     <version.fest-assert>1.4</version.fest-assert>
 
+    <version.swarm.camel>1.0.1</version.swarm.camel>
     <version.swarm.config-api>0.4.1</version.swarm.config-api>
     <version.swarm.core>1.0.0.Beta6-SNAPSHOT</version.swarm.core>
     <version.swarm.jolokia>1.0.0.Beta4-SNAPSHOT</version.swarm.jolokia>
@@ -164,6 +164,9 @@
           <version>${version.swarm.fraction-plugin}</version>
           <configuration>
             <modules>
+              <module>camel-core:${version.swarm.camel}</module>
+              <module>camel-web:${version.swarm.camel}</module>
+              <module>camel-full:${version.swarm.camel}</module>
               <module>config-api-parent:${version.swarm.config-api}</module>
               <module>core:${version.swarm.core}</module>
               <module>jolokia-parent:${version.swarm.jolokia}</module>
@@ -176,7 +179,7 @@
               <module>topology-parent:${version.swarm.topology}</module>
               <module>topology-consul-parent:${version.swarm.topology-consul}</module>
               <module>topology-jgroups-parent:${version.swarm.topology-jgroups}</module>
-              <module>topology-openshift-parent:${version.swarm.topology-openshift}</module>--&gt;
+              <module>topology-openshift-parent:${version.swarm.topology-openshift}</module>
             </modules>
           </configuration>
         </plugin>
