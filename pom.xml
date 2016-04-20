@@ -24,7 +24,7 @@
   </scm>
 
   <properties>
-    <version.swarm.fraction-plugin>15</version.swarm.fraction-plugin>
+    <version.swarm.fraction-plugin>16</version.swarm.fraction-plugin>
 
     <version.maven.plugin.api>3.2.5</version.maven.plugin.api>
     <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
