@@ -36,7 +36,7 @@
     <version.junit>4.12</version.junit>
     <version.fest-assert>1.4</version.fest-assert>
 
-    <version.swarm.camel>1.0.1</version.swarm.camel>
+    <version.swarm.camel>1.0.2</version.swarm.camel>
     <version.swarm.config-api>0.4.1</version.swarm.config-api>
     <version.swarm.core>1.0.0.Beta6-SNAPSHOT</version.swarm.core>
     <version.swarm.jolokia>1.0.0.Beta4-SNAPSHOT</version.swarm.jolokia>
