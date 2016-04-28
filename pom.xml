@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>bom-parent</artifactId>
-  <version>1.0.0.Beta8</version>
+  <version>1.0.0.CR1-SNAPSHOT</version>
 
   <name>WildFly Swarm: BOM Parent</name>
   <description>WildFly Swarm: BOM Parent</description>
