@@ -38,18 +38,19 @@
 
     <version.swarm.camel>1.0.2</version.swarm.camel>
     <version.swarm.config-api>0.4.2</version.swarm.config-api>
-    <version.swarm.core>1.0.0.Beta6</version.swarm.core>
-    <version.swarm.jolokia>1.0.0.Beta4</version.swarm.jolokia>
-    <version.swarm.keycloak>1.0.0.CR2</version.swarm.keycloak>
-    <version.swarm.logstash>1.0.0.CR2</version.swarm.logstash>
-    <version.swarm.netflix>1.0.0.Beta4</version.swarm.netflix>
-    <version.swarm.spring>1.0.0.Alpha4</version.swarm.spring>
-    <version.swarm.swagger>1.0.0.Beta5</version.swarm.swagger>
+    <version.swarm.core>1.0.0.Beta7-SNAPSHOT</version.swarm.core>
+    <version.swarm.jolokia>1.0.0.Beta5-SNAPSHOT</version.swarm.jolokia>
+    <version.swarm.keycloak>1.0.0.CR3-SNAPSHOT</version.swarm.keycloak>
+    <version.swarm.logstash>1.0.0.CR3-SNAPSHOT</version.swarm.logstash>
+    <version.swarm.netflix>1.0.0.Beta5-SNAPSHOT</version.swarm.netflix>
+    <version.swarm.spring>1.0.0.Alpha5-SNAPSHOT</version.swarm.spring>
+    <version.swarm.swagger>1.0.0.Beta6-SNAPSHOT</version.swarm.swagger>
     <version.swarm.spi>1.0.0.Beta17</version.swarm.spi>
-    <version.swarm.topology>1.0.0.CR3</version.swarm.topology>
-    <version.swarm.topology-consul>1.0.0.CR2</version.swarm.topology-consul>
-    <version.swarm.topology-jgroups>1.0.0.CR2</version.swarm.topology-jgroups>
-    <version.swarm.topology-openshift>1.0.0.CR2</version.swarm.topology-openshift>
+    <version.swarm.spring-boot>1.0.0.Alpha1-SNAPSHOT</version.swarm.spring-boot>
+    <version.swarm.topology>1.0.0.CR4-SNAPSHOT</version.swarm.topology>
+    <version.swarm.topology-consul>1.0.0.CR3-SNAPSHOT</version.swarm.topology-consul>
+    <version.swarm.topology-jgroups>1.0.0.CR3-SNAPSHOT</version.swarm.topology-jgroups>
+    <version.swarm.topology-openshift>1.0.0.CR3-SNAPSHOT</version.swarm.topology-openshift>
 
     <release.arguments>-DreleaseProfiles=javadocs,release</release.arguments>
   </properties>
@@ -174,6 +175,7 @@
               <module>logstash-parent:${version.swarm.logstash}</module>
               <module>netflix-parent:${version.swarm.netflix}</module>
               <module>spring-parent:${version.swarm.spring}</module>
+              <module>spring-boot-parent:${version.swarm.spring-boot}</module>
               <module>swagger-parent:${version.swarm.swagger}</module>
               <module>spi:${version.swarm.spi}</module>
               <module>topology-parent:${version.swarm.topology}</module>
