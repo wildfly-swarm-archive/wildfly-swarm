@@ -110,6 +110,7 @@ org.wildfly.swarm.netflix.ribbon
 org.wildfly.swarm.netflix.ribbon.secured
 org.wildfly.swarm.netflix.ribbon.secured.client
 org.wildfly.swarm.remoting
+org.wildfly.swarm.resource.adapters
 org.wildfly.swarm.security
 org.wildfly.swarm.spi.api
 org.wildfly.swarm.spi.api.annotations
