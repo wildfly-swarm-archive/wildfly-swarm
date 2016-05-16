@@ -47,6 +47,18 @@ public class PackageMojo extends AbstractSwarmMojo {
     @Parameter(alias = "bundleDependencies", defaultValue = "true")
     protected boolean bundleDependencies;
 
+    /**
+     * Make a fully executable jar for *nix machines by prepending a launch script to the jar.
+     */
+    @Parameter(alias = "executable", defaultValue = "false")
+    protected boolean executable;
+
+    /**
+     * A custom script for *nix machines by prepending a launch script to the jar. Added only when executable = true
+     */
+    @Parameter(alias = "executableScript")
+    protected File executableScript;
+
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         initProperties(false);
@@ -66,6 +78,8 @@ public class PackageMojo extends AbstractSwarmMojo {
                 .properties(this.properties)
                 .mainClass(this.mainClass)
                 .bundleDependencies(this.bundleDependencies)
+                .executable(executable)
+                .executableScript(executableScript)
                 .fractionDetectionMode(fractionDetectMode)
                 .artifactResolvingHelper(mavenArtifactResolvingHelper())
                 .logger(new BuildTool.SimpleLogger() {

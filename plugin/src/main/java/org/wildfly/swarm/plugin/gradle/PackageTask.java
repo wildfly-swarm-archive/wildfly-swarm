@@ -76,6 +76,8 @@ public class PackageTask extends DefaultTask {
                                  jarTask.getExtension(), jarTask.getArchivePath())
                 .mainClass(ext.getMainClassName())
                 .bundleDependencies(ext.getBundleDependencies())
+                .executable(ext.getExecutable())
+                .executableScript(ext.getExecutableScript())
                 .properties(ext.getProperties())
                 .properties(fromFile)
                 .properties(PropertiesUtil.filteredSystemProperties(ext.getProperties(), false))
