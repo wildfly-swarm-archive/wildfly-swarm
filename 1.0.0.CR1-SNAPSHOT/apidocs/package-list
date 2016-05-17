@@ -89,6 +89,7 @@ org.wildfly.swarm.ejb
 org.wildfly.swarm.ejb.remote
 org.wildfly.swarm.infinispan
 org.wildfly.swarm.io
+org.wildfly.swarm.javafx
 org.wildfly.swarm.jaxrs
 org.wildfly.swarm.jca
 org.wildfly.swarm.jgroups
