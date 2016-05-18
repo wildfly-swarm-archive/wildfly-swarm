@@ -6,6 +6,7 @@ org.wildfly.swarm.camel.core
 org.wildfly.swarm.camel.full
 org.wildfly.swarm.camel.web
 org.wildfly.swarm.cdi
+org.wildfly.swarm.cli
 org.wildfly.swarm.config
 org.wildfly.swarm.config.batch.jberet
 org.wildfly.swarm.config.datasources
