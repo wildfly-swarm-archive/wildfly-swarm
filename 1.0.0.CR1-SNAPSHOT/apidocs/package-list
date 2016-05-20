@@ -98,6 +98,7 @@ org.wildfly.swarm.jmx
 org.wildfly.swarm.jolokia
 org.wildfly.swarm.jpa
 org.wildfly.swarm.jpa.mysql
+org.wildfly.swarm.jpa.postgresql
 org.wildfly.swarm.jsf
 org.wildfly.swarm.keycloak
 org.wildfly.swarm.keycloak.server
