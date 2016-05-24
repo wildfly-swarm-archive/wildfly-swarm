@@ -45,7 +45,7 @@
     <version.swarm.netflix>1.0.0.Beta5-SNAPSHOT</version.swarm.netflix>
     <version.swarm.spring>1.0.0.Alpha5-SNAPSHOT</version.swarm.spring>
     <version.swarm.swagger>1.0.0.Beta6-SNAPSHOT</version.swarm.swagger>
-    <version.swarm.spi>1.0.0.CR2</version.swarm.spi>
+    <version.swarm.spi>1.0.0.Final</version.swarm.spi>
     <version.swarm.spring-boot>1.0.0.Alpha1-SNAPSHOT</version.swarm.spring-boot>
     <version.swarm.topology>1.0.2.Final-SNAPSHOT</version.swarm.topology>
     <version.swarm.topology-consul>1.0.0.CR3-SNAPSHOT</version.swarm.topology-consul>
