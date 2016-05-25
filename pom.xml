@@ -38,19 +38,19 @@
 
     <version.swarm.camel>1.0.3</version.swarm.camel>
     <version.swarm.config-api>0.4.2</version.swarm.config-api>
-    <version.swarm.core>1.0.0.CR3</version.swarm.core>
-    <version.swarm.jolokia>1.0.0.Final</version.swarm.jolokia>
-    <version.swarm.keycloak>1.0.0.Final</version.swarm.keycloak>
-    <version.swarm.logstash>1.0.0.Final</version.swarm.logstash>
-    <version.swarm.netflix>1.0.0.CR1</version.swarm.netflix>
+    <version.swarm.core>1.0.0.Final-SNAPSHOT</version.swarm.core>
+    <version.swarm.jolokia>1.0.1.Final-SNAPSHOT</version.swarm.jolokia>
+    <version.swarm.keycloak>1.0.1.Final-SNAPSHOT</version.swarm.keycloak>
+    <version.swarm.logstash>1.0.1.Final-SNAPSHOT</version.swarm.logstash>
+    <version.swarm.netflix>1.0.0.Final-SNAPSHOT</version.swarm.netflix>
     <version.swarm.spi>1.0.0.Final</version.swarm.spi>
-    <version.swarm.spring>1.0.0.Beta1</version.swarm.spring>
-    <version.swarm.spring-boot>1.0.0.Alpha1</version.swarm.spring-boot>
-    <version.swarm.swagger>1.0.0.CR1</version.swarm.swagger>
-    <version.swarm.topology>1.0.1.Final</version.swarm.topology>
-    <version.swarm.topology-consul>1.0.0.Final</version.swarm.topology-consul>
-    <version.swarm.topology-jgroups>1.0.0.Final</version.swarm.topology-jgroups>
-    <version.swarm.topology-openshift>1.0.0.Final</version.swarm.topology-openshift>
+    <version.swarm.spring>1.0.0.CR1-SNAPSHOT</version.swarm.spring>
+    <version.swarm.spring-boot>1.0.0.Alpha2-SNAPSHOT</version.swarm.spring-boot>
+    <version.swarm.swagger>1.0.0.Final-SNAPSHOT</version.swarm.swagger>
+    <version.swarm.topology>1.0.2.Final-SNAPSHOT</version.swarm.topology>
+    <version.swarm.topology-consul>1.0.1.Final-SNAPSHOT</version.swarm.topology-consul>
+    <version.swarm.topology-jgroups>1.0.1.Final-SNAPSHOT</version.swarm.topology-jgroups>
+    <version.swarm.topology-openshift>1.0.1.Final-SNAPSHOT</version.swarm.topology-openshift>
 
     <release.arguments>-DreleaseProfiles=javadocs,release</release.arguments>
   </properties>
