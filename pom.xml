@@ -78,6 +78,11 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>spi-api</artifactId>
+        <version>${version.swarm.spi}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>arquillian-resolver</artifactId>
         <version>${version.swarm.core}</version>
       </dependency>
