@@ -47,12 +47,20 @@
   </licenses>
 
   <properties>
+    <version.shrinkwrap>1.2.4</version.shrinkwrap>
     <version.shrinkwrap-descriptors>2.0.0-alpha-9</version.shrinkwrap-descriptors>
   </properties>
 
   <dependencyManagement>
     <dependencies>
 #{dependencies}
+      <dependency>
+        <groupId>org.jboss.shrinkwrap</groupId>
+        <artifactId>shrinkwrap-bom</artifactId>
+        <version>${version.shrinkwrap}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <dependency>
         <groupId>org.jboss.shrinkwrap.descriptors</groupId>
         <artifactId>shrinkwrap-descriptors-bom</artifactId>
