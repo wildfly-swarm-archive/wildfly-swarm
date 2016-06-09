@@ -47,7 +47,7 @@
   </licenses>
 
   <properties>
-    <version.shrinkwrap>1.2.4</version.shrinkwrap>
+    <version.shrinkwrap>1.2.5</version.shrinkwrap>
     <version.shrinkwrap-descriptors>2.0.0-alpha-9</version.shrinkwrap-descriptors>
   </properties>
 
