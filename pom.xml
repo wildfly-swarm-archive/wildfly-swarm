@@ -40,7 +40,7 @@
     <version.swarm.config-api>0.4.2</version.swarm.config-api>
     <version.swarm.core>1.0.1.Final-SNAPSHOT</version.swarm.core>
     <version.swarm.jolokia>1.0.2.Final-SNAPSHOT</version.swarm.jolokia>
-    <version.swarm.keycloak>1.0.1.Final-SNAPSHOT</version.swarm.keycloak>
+    <version.swarm.keycloak>1.0.2.Final-SNAPSHOT</version.swarm.keycloak>
     <version.swarm.logstash>1.0.2.Final-SNAPSHOT</version.swarm.logstash>
     <version.swarm.netflix>1.0.0.Final-SNAPSHOT</version.swarm.netflix>
     <version.swarm.spi>1.0.3.Final</version.swarm.spi>
