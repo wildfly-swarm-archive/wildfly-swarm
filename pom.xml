@@ -41,7 +41,7 @@
     <version.swarm.core>1.0.1.Final-SNAPSHOT</version.swarm.core>
     <version.swarm.jolokia>1.0.1.Final-SNAPSHOT</version.swarm.jolokia>
     <version.swarm.keycloak>1.0.1.Final-SNAPSHOT</version.swarm.keycloak>
-    <version.swarm.logstash>1.0.1.Final-SNAPSHOT</version.swarm.logstash>
+    <version.swarm.logstash>1.0.2.Final-SNAPSHOT</version.swarm.logstash>
     <version.swarm.netflix>1.0.0.Final-SNAPSHOT</version.swarm.netflix>
     <version.swarm.spi>1.0.3.Final</version.swarm.spi>
     <version.swarm.spring>1.0.0.CR1-SNAPSHOT</version.swarm.spring>
