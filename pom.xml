@@ -50,7 +50,7 @@
     <version.swarm.topology>1.0.3.Final-SNAPSHOT</version.swarm.topology>
     <version.swarm.topology-consul>1.0.2.Final-SNAPSHOT</version.swarm.topology-consul>
     <version.swarm.topology-jgroups>1.0.2.Final-SNAPSHOT</version.swarm.topology-jgroups>
-    <version.swarm.topology-openshift>1.0.1.Final-SNAPSHOT</version.swarm.topology-openshift>
+    <version.swarm.topology-openshift>1.0.2.Final-SNAPSHOT</version.swarm.topology-openshift>
 
     <release.arguments>-DreleaseProfiles=javadocs,release</release.arguments>
   </properties>
