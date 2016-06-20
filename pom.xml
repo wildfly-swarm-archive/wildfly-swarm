@@ -38,7 +38,7 @@
 
     <version.swarm.camel>1.0.4</version.swarm.camel>
     <version.swarm.config-api>0.4.2</version.swarm.config-api>
-    <version.swarm.core>1.0.0.Final</version.swarm.core>
+    <version.swarm.core>1.0.1.Final</version.swarm.core>
     <version.swarm.jolokia>1.0.1.Final</version.swarm.jolokia>
     <version.swarm.keycloak>1.0.1.Final</version.swarm.keycloak>
     <version.swarm.logstash>1.0.1.Final</version.swarm.logstash>
