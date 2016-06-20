@@ -45,7 +45,6 @@
     <version.swarm.netflix>1.0.1.Final-SNAPSHOT</version.swarm.netflix>
     <version.swarm.spi>1.0.3.Final</version.swarm.spi>
     <version.swarm.spring>1.0.1.Final-SNAPSHOT</version.swarm.spring>
-    <version.swarm.spring-boot>1.0.0.Alpha3-SNAPSHOT</version.swarm.spring-boot>
     <version.swarm.swagger>1.0.1.Final-SNAPSHOT</version.swarm.swagger>
     <version.swarm.topology>1.0.3.Final-SNAPSHOT</version.swarm.topology>
     <version.swarm.topology-consul>1.0.2.Final-SNAPSHOT</version.swarm.topology-consul>
@@ -188,7 +187,6 @@
               <module>logstash-parent:${version.swarm.logstash}</module>
               <module>netflix-parent:${version.swarm.netflix}</module>
               <module>spring-parent:${version.swarm.spring}</module>
-              <module>spring-boot-parent:${version.swarm.spring-boot}</module>
               <module>swagger-parent:${version.swarm.swagger}</module>
               <module>spi:${version.swarm.spi}</module>
               <module>topology-parent:${version.swarm.topology}</module>
